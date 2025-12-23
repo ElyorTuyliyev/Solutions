@@ -1,9 +1,22 @@
-const arr = [1,'s',23,'yy',-99,0]
+// const arr = [1,'s',23,'yy',-99,0]
 
-function numberFilter(l) {
-    return l.filter((val)=>Number.isFinite(val))
+// function numberFilter(l) {
+//     return l.filter((val)=>Number.isFinite(val))
+// }
+
+
+// console.log(numberFilter(arr));
+
+
+const number = -1
+
+const ss = function (num) {
+    const res = Math.sqrt(number)
+    if(Number.isInteger(res)) {
+        return true 
+    } else {
+        return false
+    }
 }
 
-
-console.log(numberFilter(arr));
-
+console.log(ss());
