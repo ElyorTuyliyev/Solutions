@@ -8,15 +8,24 @@
 // console.log(numberFilter(arr));
 
 
-const number = -1
+// const number = -1
 
-const ss = function (num) {
-    const res = Math.sqrt(number)
-    if(Number.isInteger(res)) {
-        return true 
-    } else {
-        return false
-    }
-}
+// const ss = function (num) {
+//     const res = Math.sqrt(number)
+//     if(Number.isInteger(res)) {
+//         return true 
+//     } else {
+//         return false
+//     }
+// }
 
-console.log(ss());
+// console.log(ss());
+
+
+// const arr = ["Bolta","Altynai","Adilet","Aibek","Kubas","Aibolat"]
+
+// function filterByA(l) {
+//     return l.filter((val)=> val.length === 4)
+// }
+
+// console.log(filterByA(arr));
