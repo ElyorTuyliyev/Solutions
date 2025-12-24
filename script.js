@@ -29,3 +29,8 @@
 // }
 
 // console.log(filterByA(arr));
+
+
+// const numbers = 1947837
+// const res = numbers.toString().split("").reverse().map(Number)
+// console.log(res);
