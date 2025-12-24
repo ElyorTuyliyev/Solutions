@@ -47,3 +47,8 @@
 // return "green"
 //    }
 // }
+
+
+// const str = "helulo worlid tashkent"
+// const res = str.match(/[^AOUEIaioeu]/ig).join("")
+// console.log(res);
