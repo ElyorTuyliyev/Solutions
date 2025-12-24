@@ -52,3 +52,29 @@
 // const str = "helulo worlid tashkent"
 // const res = str.match(/[^AOUEIaioeu]/ig).join("")
 // console.log(res);
+
+
+// const string = "123456"
+// console.log( typeof Number(string));
+
+
+// function getSum(a, b) {
+//   let min = Math.min(a, b);
+//   let max = Math.max(a, b);
+
+//   let count = max - min + 1;
+//   return (count * (min + max)) / 2;
+// }
+// console.log(getSum(2,-9));
+
+
+
+// function findAverage(array) {
+//   if (array.length===0) {
+//     return 0
+// } else {
+//   return (array.reduce((acc,val)=>acc+val)/array.length)
+// }
+// }
+// console.log(findAverage([1,1,1]));
+
