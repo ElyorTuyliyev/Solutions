@@ -80,14 +80,19 @@
 
 
 
-function yy(num) {
-   var res = ''
-    for (var l = 1; l <= 7; l++) {
-       res += `${l} sheep...`
-    }
-    return res
+// function yy(num) {
+//    var res = ''
+//     for (var l = 1; l <= num; l++) {
+//        res += `${l} sheep...`
+//     }
+//     return res
+// }
+// console.log(yy(7));
 
-}
 
-console.log(yy());
-
+// let str = "allaBola"
+// function solution(text) {
+//     return str.split(/(?=[A-Z])/).toString().replaceAll(","," ") 
+  
+// }
+// console.log(solution());
