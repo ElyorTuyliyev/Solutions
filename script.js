@@ -78,3 +78,16 @@
 // }
 // console.log(findAverage([1,1,1]));
 
+
+
+function yy(num) {
+   var res = ''
+    for (var l = 1; l <= 7; l++) {
+       res += `${l} sheep...`
+    }
+    return res
+
+}
+
+console.log(yy());
+
