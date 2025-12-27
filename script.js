@@ -104,3 +104,10 @@
 
 // console.log(solution(""));
 
+
+// 1 hours 0.5 l
+// const number = 1
+// function litres(l) {
+//    return parseInt(number/2)
+// }
+// console.log(litres());
