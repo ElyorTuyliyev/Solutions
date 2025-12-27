@@ -125,14 +125,11 @@
 // console.log(betterThanAverage());
 
 
-const ss = "jon will"
-
-function abbrevName(name){
-    const toArr =  ss.split(" ")
-    const first = toArr[0].charAt(0).toLocaleUpperCase()
-    const second = toArr[1].charAt(0).toLocaleUpperCase()
-    return `${first}.${second}`
-}
-
-
-console.log(abbrevName());
+// const ss = "jon will"
+// function abbrevName(name){
+//     const toArr =  ss.split(" ")
+//     const first = toArr[0].charAt(0).toLocaleUpperCase()
+//     const second = toArr[1].charAt(0).toLocaleUpperCase()
+//     return `${first}.${second}`
+// }
+// console.log(abbrevName());
