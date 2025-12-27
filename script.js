@@ -133,3 +133,22 @@
 //     return `${first}.${second}`
 // }
 // console.log(abbrevName());
+
+
+
+// function otherAngle(a, b) {
+//   return 180-a-b
+// }
+
+// console.log(otherAngle(2,3));
+
+
+// const num = "1 2 3 4 56 76 8 9"
+// function highAndLow(numbers){
+//     const arr = num.split(" ")
+//     const res = Math.min(...arr)
+//     const res2 = Math.max(...arr)
+//     return `${res} ${res2}`
+// }
+// console.log(highAndLow());
+
