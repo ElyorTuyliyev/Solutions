@@ -90,7 +90,7 @@
 // console.log(yy(7));
 
 
-// let str = "allaBola"
+// let str = "allRight"
 // function solution(text) {
 //     return str.split(/(?=[A-Z])/).toString().replaceAll(","," ") 
   
@@ -111,3 +111,15 @@
 //    return parseInt(number/2)
 // }
 // console.log(litres());
+
+// const pointsMe = 100
+// const pointsClass = [50,50,50]
+// function betterThanAverage() {
+//     const res =  pointsClass.reduce((acc,val)=>acc+val)/pointsClass.length   
+// if (res <pointsMe) {
+//   return true
+// } else {
+//     return false
+// }
+// }
+// console.log(betterThanAverage());
