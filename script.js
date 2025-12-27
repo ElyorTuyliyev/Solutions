@@ -96,3 +96,11 @@
   
 // }
 // console.log(solution());
+
+
+// function solution(s) {
+//     return s.replaceAll(/!/g,"")
+// }
+
+// console.log(solution(""));
+
