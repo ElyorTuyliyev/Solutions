@@ -170,3 +170,13 @@
 
 
 // console.log(getCount(strText));
+
+
+// const summation = function (num) {
+//     var res = 0
+//     for (let l = 1; l <= num; l++) {
+//        res +=l
+//     }
+//     return res
+// }
+// summation()
