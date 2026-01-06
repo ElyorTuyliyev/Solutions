@@ -158,17 +158,13 @@
 //   const randomAge =  Math.floor(Math.random()*10)
 //   return randomAge+" years old"
 // }
-
 // console.log(getAge());
 
 // const strText = " eius nobis. Quibusdam esse aliquid quo et dolores unde."
-
 // function getCount(str) {
 //   const res =   str.match(/[aeiou]/g);
 //       return res ? res.length : 0;
 // }
-
-
 // console.log(getCount(strText));
 
 
@@ -180,3 +176,9 @@
 //     return res
 // }
 // summation()
+
+
+// function oppositeNumber(num) {
+//   return -num 
+// }
+// console.log(oppositeNumber(-1.22));
