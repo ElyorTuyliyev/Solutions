@@ -195,3 +195,11 @@
 //       return "Nine";
 //   }
 // }
+
+// var number = function (array) {
+//   return array.map((value, i) => {
+//     return `${i + 1}: ${value}`;
+//   });
+// };
+
+// console.log(number());
