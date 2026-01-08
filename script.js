@@ -4,18 +4,16 @@
 // }
 // console.log(numberFilter(arr));
 
-
 // const number = -1
 // const ss = function (num) {
 //     const res = Math.sqrt(number)
 //     if(Number.isInteger(res)) {
-//         return true 
+//         return true
 //     } else {
 //         return false
 //     }
 // }
 // console.log(ss());
-
 
 // const arr = ["Bolta","Altynai","Adilet","Aibek","Kubas","Aibolat"]
 // function filterByA(l) {
@@ -23,11 +21,9 @@
 // }
 // console.log(filterByA(arr));
 
-
 // const numbers = 1947837
 // const res = numbers.toString().split("").reverse().map(Number)
 // console.log(res);
-
 
 // function hoopCount (n) {
 //    if (n<10) {
@@ -35,8 +31,7 @@
 //    } else {
 //       return "Great, now move on to tricks"
 //    }
-// } 
-
+// }
 
 // function updateLight(current) {
 //   if  (current==="green") {
@@ -48,15 +43,12 @@
 //    }
 // }
 
-
 // const str = "helulo worlid tashkent"
 // const res = str.match(/[^AOUEIaioeu]/ig).join("")
 // console.log(res);
 
-
 // const string = "123456"
 // console.log( typeof Number(string));
-
 
 // function getSum(a, b) {
 //   let min = Math.min(a, b);
@@ -67,8 +59,6 @@
 // }
 // console.log(getSum(2,-9));
 
-
-
 // function findAverage(array) {
 //   if (array.length===0) {
 //     return 0
@@ -77,8 +67,6 @@
 // }
 // }
 // console.log(findAverage([1,1,1]));
-
-
 
 // function yy(num) {
 //    var res = ''
@@ -89,21 +77,18 @@
 // }
 // console.log(yy(7));
 
-
 // let str = "allRight"
 // function solution(text) {
-//     return str.split(/(?=[A-Z])/).toString().replaceAll(","," ") 
-  
+//     return str.split(/(?=[A-Z])/).toString().replaceAll(","," ")
+
 // }
 // console.log(solution());
-
 
 // function solution(s) {
 //     return s.replaceAll(/!/g,"")
 // }
 
 // console.log(solution(""));
-
 
 // 1 hours 0.5 l
 // const number = 1
@@ -115,7 +100,7 @@
 // const pointsMe = 100
 // const pointsClass = [50,50,50]
 // function betterThanAverage() {
-//     const res =  pointsClass.reduce((acc,val)=>acc+val)/pointsClass.length   
+//     const res =  pointsClass.reduce((acc,val)=>acc+val)/pointsClass.length
 // if (res <pointsMe) {
 //   return true
 // } else {
@@ -123,7 +108,6 @@
 // }
 // }
 // console.log(betterThanAverage());
-
 
 // const ss = "jon will"
 // function abbrevName(name){
@@ -134,14 +118,11 @@
 // }
 // console.log(abbrevName());
 
-
-
 // function otherAngle(a, b) {
 //   return 180-a-b
 // }
 
 // console.log(otherAngle(2,3));
-
 
 // const num = "1 2 3 4 56 76 8 9"
 // function highAndLow(numbers){
@@ -151,8 +132,6 @@
 //     return `${res} ${res2}`
 // }
 // console.log(highAndLow());
-
-
 
 // function getAge() {
 //   const randomAge =  Math.floor(Math.random()*10)
@@ -167,7 +146,6 @@
 // }
 // console.log(getCount(strText));
 
-
 // const summation = function (num) {
 //     var res = 0
 //     for (let l = 1; l <= num; l++) {
@@ -177,9 +155,8 @@
 // }
 // summation()
 
-
 // function oppositeNumber(num) {
-//   return -num 
+//   return -num
 // }
 // console.log(oppositeNumber(-1.22));
 
@@ -190,9 +167,31 @@
 //   true,  true,  true,  true ,
 //   false, false, true, undefined ,null  ]
 
-
 //   function countSheep(sheep) {
 //    return arr.filter((value)=>value===true).length
 // }
 
 // console.log(countSheep());
+
+function switchItUp(number) {
+  switch (number) {
+    case 1:
+      return "One";
+    case 2:
+      return "Two";
+    case 3:
+      return "Three";
+    case 4:
+      return "Four";
+    case 5:
+      return "Five";
+    case 6:
+      return "Six";
+    case 7:
+      return "Seven";
+    case 8:
+      return "Eight";
+    case 9:
+      return "Nine";
+  }
+}
