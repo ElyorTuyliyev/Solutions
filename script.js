@@ -182,3 +182,17 @@
 //   return -num 
 // }
 // console.log(oppositeNumber(-1.22));
+
+ const arr = [true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true, undefined ,null  ]
+
+
+  function countSheep(sheep) {
+   return arr.filter((value)=>value===true).length
+}
+
+console.log(countSheep());
